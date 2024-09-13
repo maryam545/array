@@ -24,3 +24,14 @@
  *
  */
 // const num = 2;
+const arr = [1, 2, 3, 4, 5, 6, 7];
+function containValue(value, arr) {
+  if (arr.includes(value)) {
+    console.log(`yes`);
+  } else {
+    console.log(`no`);
+  }
+  //   return num;
+}
+const value = containValue(2, arr);
+console.log(value);
