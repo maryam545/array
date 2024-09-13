@@ -34,4 +34,4 @@ function containValue(value, arr) {
   //   return num;
 }
 const value = containValue(2, arr);
-console.log(value);
+// console.log(value);
