@@ -24,17 +24,3 @@
  *
  */
 // const num = 2;
-
-const value = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-function containValue(value, arr) {
-  if (arr.indexOf(value)) {
-    console.log(`yes`);
-  } else {
-    console.log(`no`);
-  }
-  return num;
-}
-const num = containValue(2, 2);
-console.log(num);
-// arr.indexOf(num);
-// console.log(arr.indexOf(2));
